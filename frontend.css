@@ -1,0 +1,22 @@
+/*General*/
+.container {
+	width: auto;
+	text-align: center;
+}
+/*end General*/
+
+/*header*/
+/*end header*/
+
+/*footer*/
+
+footer#footer {
+	background: #3E403F;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*end footer*/
+
+
+
