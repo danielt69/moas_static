@@ -1,71 +1,105 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://0.0.0.0:3000/ -->
+<html lang="en"><!--<![endif]--><head data-hook="inside_head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Moas static by danielt69</title>
+<title>Spree Demo Site</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+<meta name="keywords">
+<meta name="description">
+<link href="http://demo.spreecommerce.com/" rel="canonical">
+<link href="http://0.0.0.0:3000/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link href="http://0.0.0.0:3000/assets/normalize.css?body=1" media="screen" rel="stylesheet">
+<link href="http://0.0.0.0:3000/assets/skeleton.css?body=1" media="screen" rel="stylesheet">
+<link href="http://0.0.0.0:3000/assets/spree/frontend/screen.css?body=1" media="screen" rel="stylesheet">
+<link href="frontend.css" media="screen" rel="stylesheet">
+<link href="http://0.0.0.0:3000/assets/spree/frontend/all.css?body=1" media="screen" rel="stylesheet">
+<link href="http://0.0.0.0:3000/assets/spree/frontend/spree_static_content.css?body=1" media="screen" rel="stylesheet">
+<meta content="authenticity_token" name="csrf-param">
+<meta content="u7rU3IhK7mUAaLWXJwQT0K5QeNQ+tEnYFtDlim/utKk=" name="csrf-token">
+<script src="./Spree Demo Site_files/jquery.js"></script><style type="text/css"></style>
+<script src="./Spree Demo Site_files/jquery_ujs.js"></script>
+<script src="./Spree Demo Site_files/jquery.validate.min.js"></script>
+<script src="./Spree Demo Site_files/jsuri.js"></script>
+<script src="./Spree Demo Site_files/spree.js"></script>
+<script src="./Spree Demo Site_files/jquery.payment.js"></script>
+<script src="./Spree Demo Site_files/checkout.js"></script>
+<script src="./Spree Demo Site_files/address.js"></script>
+<script src="./Spree Demo Site_files/payment.js"></script>
+<script src="./Spree Demo Site_files/product.js"></script>
+<script src="./Spree Demo Site_files/cart.js"></script>
+<script src="./Spree Demo Site_files/frontend.js"></script>
+<script src="./Spree Demo Site_files/all.js"></script>
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+<![endif]-->
+
+
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Moas static</h1>
-        <p>moas_static_page</p>
+  <body class="one-col" id="default" data-hook="body" cz-shortcut-listen="true">
 
-        <p class="view"><a href="https://github.com/danielt69/moas_static">View the Project on GitHub <small>danielt69/moas_static</small></a></p>
+    <div class="container">
+
+      <header id="header" class="row" data-hook="">
+  <figure id="logo" class="columns six" data-hook=""><a href="./Spree Demo Site_files/Spree Demo Site.html"><img alt="Spree 50" src="./Spree Demo Site_files/spree_50.png"></a></figure>
+  <nav id="top-nav-bar" class="columns ten">
+  <ul id="nav-bar" class="inline" data-hook="">
+  <li><a href="http://0.0.0.0:3000/account">My Account</a></li>
+  <li><a href="http://0.0.0.0:3000/logout">Logout</a></li>
+<li id="search-bar" data-hook="">
+      <form accept-charset="UTF-8" action="http://0.0.0.0:3000/products" method="get"><div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+    <select aria-label="Taxon" id="taxon" name="taxon"><option value="">All departments</option>
+<option value="1">Categories</option>
+<option value="2">Brand</option></select>
+  <input id="keywords" name="keywords" placeholder="Search" type="search">
+  <input type="submit" value="Search">
+</form>
+    </li>
+  </ul>
+</nav>
+
+  <nav class="columns sixteen">
+  <ul id="main-nav-bar" class="inline" data-hook="">
+    <li id="home-link" data-hook=""><a href="./Spree Demo Site_files/Spree Demo Site.html">Home</a></li>
+    <li id="link-to-cart" data-hook=""><a class="cart-info empty" href="http://0.0.0.0:3000/cart">Cart: (Empty)</a></li>
+    <script>Spree.fetch_cart()</script>
+  
+</ul>
+</nav>
+
+</header>
 
 
-        <ul>
-          <li><a href="https://github.com/danielt69/moas_static/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/danielt69/moas_static/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/danielt69/moas_static">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+      <div id="wrapper" class="row" data-hook="">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+        <div id="content" class="columns sixteen" data-hook="">
+          
+          
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<h1>	Elad IS here!! </h1>
+        </div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+        
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+      </div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+      <footer id="footer" class="sixteen columns" data-hook="">
+  <div id="footer-left" class="columns alpha eight" data-hook="">
+    <p>Powered by <a href="http://spreecommerce.com/">Spree</a></p>
+  </div>
+  <div id="footer-right" class="columns omega eight" data-hook=""><nav id="footer-pages">
+  <ul></ul>
+</nav></div>
+</footer>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/danielt69">danielt69</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
-  </body>
-</html>
+  
+
+</body></html>
