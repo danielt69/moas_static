@@ -7,6 +7,13 @@ body {
 	text-align: center;
 	background: url(img/header_bg.jpg) repeat-x;
 }
+li.inline_block {
+	display: inline-block;
+	vertical-align: top;
+}
+li {
+	list-style: none;
+}
 /*end General*/
 
 /*header*/
@@ -16,55 +23,171 @@ body {
 	height: 192px;
 	position: relative;
 }
-nav#top-nav-bar ul li,
-li#search-bar select#taxon {
-	display: none;
-}
-nav#top-nav-bar ul li#search-bar {
-	display: block;
-}
 figure#logo {
-	margin: 0;
-	width: auto;
+	width: 346px;
+	height: 119px;
+	position: absolute;
+	top: 0;
+	right: auto;
+	left: 0;
 }
-figure#logo a {
+figure#logo2 {
+	width: 170px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+div.gas_servise {
+	position: absolute;
+	top: 34px;
+	right: 440px;
+	width: 157px;
+	height: 78px;
+	border-left: 1px solid #ccc;
+}
+div.gas_servise a {
 	display: block;
-}
-figure#logo a img {
-	padding-top: 25px
-}
-select#taxon {
-	display: none;
-}
-nav#top-nav-bar ul li a {
-	display: none;
-}
-nav #main-nav-bar {
-	border: none;
-	margin: 0;
-	padding: 0;
 	width: 100%;
-	position: relative;
-	top: -14px;
+	height: 100%;
+	font-size: 22PX;
+	line-height: 30px;
+	color: #020202;
 }
-nav #main-nav-bar li {
-	width: 19%;
-	vertical-align: top;
+ul#main-nav-bar {
+	position: absolute;
+	top: auto;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	margin: 0;
+	height: 47px;
 }
-nav #main-nav-bar li:first-child {
+ul#main-nav-bar li:first-child {
 	border-right: 1px solid #ccc;
 }
-nav #main-nav-bar li a {
+ul#main-nav-bar li {
+	width: 187px;
+	border-left: 1px solid #ccc;
+}
+ul#main-nav-bar li a {
 	font-size: 20px;
-	padding: 0;
-	line-height: 47px;
 	font-weight: normal;
 	color: #fff;
+	line-height: 47px;
 	display: block;
-	height: 100%;
 	width: 100%;
+	height: 100%;
+}
+ul#main-nav-bar li:hover a {
+	color: #8dc63f;
+	background: rgba(0, 0, 0, 0.33);
 }
 /*end header*/
+
+
+/*main homepage*/
+div.slider a {
+	display: block;
+	width: 100%;
+}
+div.our_service {
+	text-align: right;
+	width: 960px;
+	margin: 40px auto;
+}
+ul.our_service_main {
+	width: 960px;
+	margin: 0 auto;
+}
+ul.our_service_main li.inline_block:first-child {
+	margin: 0;
+}
+ul.our_service_main li.inline_block {
+	width: 227px;
+	height: 358px;
+	margin-right: 14px;
+	position: relative;
+}
+ul.our_service_main li.inline_block:before {
+	content: "";
+	position: absolute;
+	top: auto;
+	bottom: -49px;
+	right: 0;
+	width: 100%;
+	height: 50px;
+	background: url(img/small_shadow.png) no-repeat 0px 0px;
+}
+ul.our_service_main li.inline_block > a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+ul.each_service {
+	position: relative;
+}
+ul.each_service li.pos_0 {
+	width: 100%;
+	height: 151px;
+}
+ul.each_service li.pos_0 .service_img {
+	border-bottom: 5px solid #ccc;
+}
+ul.each_service li.pos_1 {
+	width: 100%;
+	height: 207px;
+	background: url(img/bg_footer.png) repeat;
+}
+ul.each_service li.pos_1 a {
+	font-size: 26px;
+	line-height: 31px;
+	color: #8dc63f;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	padding: 53px 37px 0;
+}
+ul.each_service li.pos_2 {
+	position: absolute;
+	top: 151px;
+	right: 0px;
+	width: 100%;
+	height: 207px;
+	background: #8dc63f;
+	padding: 13px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	opacity: 0;
+	-o-transition: All 0.25s ease;
+	-ms-transition: All 0.25s ease;
+	-moz-transition: All 0.25s ease;
+	-webkit-transition: All 0.25s ease;
+	transition: All 0.25s ease;
+}
+ul.our_service_main li:hover li.pos_2 {
+	opacity: 1;
+	-o-transition: All 0.25s ease;
+	-ms-transition: All 0.25s ease;
+	-moz-transition: All 0.25s ease;
+	-webkit-transition: All 0.25s ease;
+	transition: All 0.25s ease;
+}
+ul.each_service li.pos_2 p {
+	font-size: 15px;
+	line-height: 20px;
+	text-align: justify;
+	margin: 0;
+	padding: 0;
+}
+div.store_img {
+	margin: 40px auto;
+	width: 960px;
+}
+/*end main homepage*/
 
 /*footer*/
 
@@ -77,4 +200,26 @@ footer#footer {
 /*end footer*/
 
 
+/*about us*/
 
+div.main_about_us {
+	width: 960px;
+	margin: 0px auto;
+}
+div.main_about_us h3 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #e2001a;
+}
+.main_about_us p {
+	font-size: 21px;
+	line-height: 24px;
+	color: #020202;
+}
+
+/*end about us*/
+
+/*mobile*/
+
+/*end mobile*/
