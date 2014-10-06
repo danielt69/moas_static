@@ -7,7 +7,7 @@ body {
 	text-align: center;
 	background: url(img/header_bg.jpg) repeat-x;
 }
-li.inline_block {
+.inline_block {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -244,7 +244,135 @@ footer#footer {
 	width: 100%;
 	margin: 0 auto;
 }
-
+.wrap_footer {
+	width: 960px;
+	margin: 30px auto 0;
+	position: relative;
+}
+footer#footer .facebooks {
+	width: 17%;
+	height: 252px;
+	position: relative;
+}
+footer#footer .facebooks:before {
+	content: "";
+	position: absolute;
+	right: auto;
+	left: 0;
+	top: 10px;
+	width: 1px;
+	height: 250px;
+	border-right: 1px solid rgba(204, 204, 204, 0.2);
+}
+footer#footer .facebooks > div {
+	height: 50%;
+	width: 100%;
+	background: url(img/fb_icon.png) no-repeat right 0 ;
+}
+footer#footer .facebooks > div a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	font-size: 17px;
+	line-height: 20px;
+	color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 69px 0 0 36px;
+	position: relative;	
+}
+footer#footer .facebooks > div.fb_homepage a:before {
+	content: "";
+	position: absolute;
+	top: 91%;
+	right: 0px;
+	width: 64%;
+	height: 1px;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.23);
+}
+.footer_nav {
+	width: 52%;
+	height: 177px;
+	text-align: right;
+	position: relative;
+}
+.nav_site {
+	width: 40%;
+	height: 100%;
+	position: relative;
+}
+.address {
+	width: 59%;
+	height: 100%;
+}
+.footer_nav > div {
+	padding: 0 35px 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap_footer h3 {
+	color: #8dc63f;
+}
+.footer_nav a, .footer_nav p {
+	font-size: 17px;
+	line-height: 34px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+.nav_site:before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	right: auto;
+	left: 0;
+	height: 160px;
+	width: 1px;
+	border-left: 1px solid rgba(204, 204, 204, 0.21);
+}
+.footer_nav a:hover {
+	color: #8dc63f;
+}
+.footer_nav:before {
+	content: "";
+	position: absolute;
+	top: 112%;
+	right: 8%;
+	width: 81%;
+	height: 1px;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.26);
+}
+.contact {
+	width: 30%;
+	height: 100%;
+	text-align: right;
+	padding-right: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.contact:before {
+	content: "";
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	width: 1px;
+	height: 250px;
+	border-right: 1px solid rgba(204, 204, 204, 0.2);
+}
+.footer_nav:after {
+	content: "";
+	position: absolute;
+	top: 123%;
+	right: 121px;
+	width: 200px;
+	height: 50px;
+	background: url(img/for_u.png) no-repeat 0 0;
+}
 /*end footer*/
 
 
