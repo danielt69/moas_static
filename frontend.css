@@ -248,7 +248,7 @@ footer#footer {
 }
 .wrap_footer {
 	width: 960px;
-	margin: 30px auto 0;
+	margin: 30px auto 30px;
 	position: relative;
 }
 footer#footer .facebooks {
@@ -374,6 +374,35 @@ footer#footer .facebooks > div.fb_homepage a:before {
 	width: 200px;
 	height: 50px;
 	background: url(img/for_u.png) no-repeat 0 0;
+}
+input#footer_contact_us_contact_name,
+input#footer_contact_us_contact_email {
+	width: 257px;
+	height: 27px;
+	background-color: #fff;
+}
+textarea#footer_contact_us_contact_message {
+	width: 257px;
+	height: 89px;
+	background-color: #fff;
+	resize: none;
+}
+form#footer_new_contact_us_contact p {
+	margin: 0;
+	padding: 4px 0;
+}
+input#footer_contact_us_contact_submit {
+	background: url(img/footer_btn.png) no-repeat 0px 0px;
+	width: 173px;
+	height: 36px;
+	border: none;
+	font-size: 0px;
+	position: relative;
+	right: 84px;
+}
+input#footer_contact_us_contact_submit:focus {
+	border: none;
+	outline: none;
 }
 /*end footer*/
 
