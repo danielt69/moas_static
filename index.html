@@ -16,11 +16,12 @@
     <link href="assets/normalize.css" media="screen" rel="stylesheet">
     <link href="assets/skeleton.css" media="screen" rel="stylesheet">
     <link href="assets/spree/frontend/screen.css" media="screen" rel="stylesheet">
-    <link href="frontend.css" media="screen" rel="stylesheet">
+    
     <link href="assets/spree/frontend/all.css" media="screen" rel="stylesheet">
     <link href="assets/spree/frontend/spree_static_content.css" media="screen" rel="stylesheet">
     <meta content="authenticity_token" name="csrf-param">
     <meta content="u7rU3IhK7mUAaLWXJwQT0K5QeNQ+tEnYFtDlim/utKk=" name="csrf-token">
+
     <script src="./Spree Demo Site_files/jquery.js"></script>
     <style type="text/css"></style>
     <script src="./Spree Demo Site_files/jquery_ujs.js"></script>
@@ -34,7 +35,19 @@
     <script src="./Spree Demo Site_files/product.js"></script>
     <script src="./Spree Demo Site_files/cart.js"></script>
     <script src="./Spree Demo Site_files/frontend.js"></script>
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+     
+    <!-- Include js plugin -->
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+
     <script src="./Spree Demo Site_files/all.js"></script>
+    <link href="frontend.css" media="screen" rel="stylesheet">
+
+    
     <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
 <![endif]-->
@@ -76,10 +89,12 @@
         <div id="main" >
             <div id="content">
 
-                <div class="slider">
-                    <a href="/">
-                        <img alt="slider" src="img/slider1.jpg">
-                    </a>
+                <div id="owl-demo" class="owl-carousel owl-theme">
+ 
+                  <div class="item"><a href="#"><img src="img/slider1.jpg" alt=""></a></div>
+                  <div class="item"><a href="#"><img src="img/slider2.jpg" alt=""></a></div>
+                  <div class="item"><a href="#"><img src="img/slider3.jpg" alt=""></a></div>
+                 
                 </div>
 
                  <div class="our_service">

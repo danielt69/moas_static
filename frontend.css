@@ -187,6 +187,54 @@ div.store_img {
 	margin: 40px auto;
 	width: 960px;
 }
+
+/* slider */
+.owl-carousel .owl-wrapper-outer {
+	direction: ltr;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-controls.clickable {
+	margin: -32px auto 0;
+	width: auto;
+	max-width: 95%;
+	text-align: right;
+	position: relative;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	position: absolute;
+	bottom: 120px;
+	right: 0px;
+	margin: 0;
+	padding: 0;
+	color: rgba(0, 0, 0, 0);
+	background: none;
+	border-radius: 0;
+}
+.owl-theme .owl-controls .owl-buttons div:after {
+	content: "\f105";
+	color: #FFF;
+	font: normal normal normal 120px/120px FontAwesome;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+	right: auto;
+	left: 0;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next:after {
+	content: "\f104";
+	float: left;
+}
+.owl-theme .owl-controls .owl-page {
+	float: right;
+}
+.owl-theme .owl-controls .owl-page span {
+	background: #FFF;
+}
+/* slider */
+
 /*end main homepage*/
 
 /*footer*/
