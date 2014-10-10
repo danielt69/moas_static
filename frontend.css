@@ -457,7 +457,7 @@ div.main_about_us h3 {
 
 /* our services page */
 .main_our_services {
-	margin: 0 auto;
+	margin: 40px auto;
 	width: 960px;
 }
 .main_our_services p {
