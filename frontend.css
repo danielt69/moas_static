@@ -453,6 +453,9 @@ div.main_about_us h3 {
 	left: 90px;
 	bottom: 15px;
 }
+.main_order_form {
+	position: relative;
+}
 /* end order page */
 
 
