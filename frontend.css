@@ -449,8 +449,13 @@ div.main_about_us h3 {
 	position: relative;
 }
 .order_bg {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.order_bg img {
 	position: absolute;
-	left: 90px;
+	left: -40px;
 	bottom: 15px;
 }
 .main_order_form {
