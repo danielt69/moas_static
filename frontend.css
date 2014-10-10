@@ -456,7 +456,7 @@ div.main_about_us h3 {
 .order_bg img {
 	position: absolute;
 	left: -40px;
-	bottom: 15px;
+	bottom: 0px;
 }
 .main_order_form {
 	position: relative;
