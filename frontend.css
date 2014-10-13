@@ -98,21 +98,27 @@ div.our_service {
 	max-width: 960px;
 	margin: 60px auto 20px;
 }
-div.our_service a {
+.our_service a {
 	display: block;
+	width: 40%;
+	height: 100%;
+	margin: 40px auto;
+}
+div.our_service img {
+	width: 100%;
 }
 ul.our_service_main {
 	max-width: 960px;
 	margin: 0 auto;
 }
 ul.our_service_main li.inline_block:first-child {
-	margin: 0;
+	margin: 0 0 20px 0;
 }
 ul.our_service_main li.inline_block {
 	width: 227px;
 	height: 358px;
-	margin-right: 14px;
 	position: relative;
+	margin: 0 14px 20px 0;
 }
 ul.our_service_main li.inline_block:before {
 	content: "";
@@ -473,14 +479,15 @@ div.main_about_us h3 {
 	max-width: 960px;
 }
 .main_our_services p {
-	text-align: right;
+	text-align: center;
 	font-size: 15px;
 	width: 70%;
-	padding-right: 20%;
+	margin: 0 auto 22px;
 }
 .main_our_services a {
 	font-size: 20px;
 	color: #8dc63f;
+	font-weight: bold;
 }
 
 /* end our services page */
@@ -488,7 +495,7 @@ div.main_about_us h3 {
 
 
 /* gallery page */
-div#content {
+.gallery div#content {
 	max-width: 1400px;
 	margin: 40px auto;
 }
@@ -500,6 +507,7 @@ div#content {
 /* #### Mobile Phones Portrait or Landscape #### */
 @media screen and (max-device-width: 640px){
 
+
 /*header*/
 	div.gas_servise {
 		display: none;
@@ -508,6 +516,16 @@ div#content {
 	.owl-buttons {
 		display: none;
 	}
+	ul.our_service_main li.inline_block {
+		margin: 0 14px 20px 0;
+	}
+	.our_service a {
+		display: block;
+		width: 66%;
+		height: 100%;
+		margin: 0 auto;
+	}
+
 }
 
 /*end mobile*/
