@@ -482,6 +482,16 @@ div.main_about_us h3 {
 
 /* end our services page */
 
+
+
+/* gallery page */
+div#content {
+	max-width: 1400px;
+	margin: 40px auto;
+}
+/* end gallery page */
+
+
 /*mobile*/
 
 /* #### Mobile Phones Portrait or Landscape #### */
