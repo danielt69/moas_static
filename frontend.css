@@ -505,8 +505,7 @@ div.main_about_us h3 {
 /*mobile*/
 
 /* #### Mobile Phones Portrait or Landscape #### */
-@media screen and (max-device-width: 640px){
-
+@media screen and (max-width: 640px){
 
 /*header*/
 	div.gas_servise {
@@ -525,7 +524,7 @@ div.main_about_us h3 {
 		height: 100%;
 		margin: 0 auto;
 	}
-
+	
 }
 
 /*end mobile*/
