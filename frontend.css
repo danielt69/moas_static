@@ -484,4 +484,20 @@ div.main_about_us h3 {
 
 /*mobile*/
 
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+  /* some CSS here */
+}
+
 /*end mobile*/
+
+
+
+
+
+
+
+
+
+
+
