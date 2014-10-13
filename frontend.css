@@ -198,7 +198,6 @@ ul.each_service li.pos_2 p {
 div.store_img {
 	margin: 40px auto;
 	max-width: 960px;
-<<<<<<< HEAD
 }
 div.store_img a {
 	display: block;
@@ -207,8 +206,6 @@ div.store_img a {
 }
 div.store_img a img {
 	width: 100%;
-=======
->>>>>>> 6ac669482cc36ddd81dce919df53da01344aafd7
 }
 
 /* slider */
@@ -536,12 +533,30 @@ div.main_about_us h3 {
 		height: 100%;
 		margin: 0 auto;
 	}
-<<<<<<< HEAD
-	
-=======
+	figure#logo2 {
+		display: none;
+	}
+	ul#main-nav-bar li {
+		display: block;
+		width: 100%;
+		background: url('img/header_bg.jpg') repeat center bottom;
+	}
+	.container {
+		background: none;
+	}
+	ul#main-nav-bar {
+		height: auto;
+		bottom: auto;
+		top: 145px;
+	}
+	#header {
+		height: 380px;
+	}
+	figure#logo {
+		position: static;
+		margin: 0 auto;
+	}
 
-
->>>>>>> FETCH_HEAD
 }
 
 /*end mobile*/
