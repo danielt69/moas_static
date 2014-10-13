@@ -16,6 +16,9 @@ body {
 li {
 	list-style: none;
 }
+ul {
+	padding: 0px;
+}
 /*end General*/
 
 /*header*/
