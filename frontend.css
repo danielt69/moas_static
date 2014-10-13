@@ -519,6 +519,13 @@ div.main_about_us h3 {
 	div.gas_servise {
 		display: none;
 	}
+	figure#logo {
+		width: 100%;
+	}
+	figure#logo img {
+		padding-top: 25px;
+		width: 90%;
+	}
 /*homepage*/
 	.owl-buttons {
 		display: none;
