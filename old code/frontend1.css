@@ -1,0 +1,80 @@
+/*General*/
+body {
+	direction: rtl;
+}
+.container {
+	width: auto;
+	text-align: center;
+	background: url(img/header_bg.jpg) repeat-x;
+}
+/*end General*/
+
+/*header*/
+#header {
+	width: 960px;
+	margin: 0 auto;
+	height: 192px;
+	position: relative;
+}
+nav#top-nav-bar ul li,
+li#search-bar select#taxon {
+	display: none;
+}
+nav#top-nav-bar ul li#search-bar {
+	display: block;
+}
+figure#logo {
+	margin: 0;
+	width: auto;
+}
+figure#logo a {
+	display: block;
+}
+figure#logo a img {
+	padding-top: 25px
+}
+select#taxon {
+	display: none;
+}
+nav#top-nav-bar ul li a {
+	display: none;
+}
+nav #main-nav-bar {
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+	top: -14px;
+}
+nav #main-nav-bar li {
+	width: 19%;
+	vertical-align: top;
+}
+nav #main-nav-bar li:first-child {
+	border-right: 1px solid #ccc;
+}
+nav #main-nav-bar li a {
+	font-size: 20px;
+	padding: 0;
+	line-height: 47px;
+	font-weight: normal;
+	color: #fff;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+/*end header*/
+
+/*footer*/
+
+footer#footer {
+	background: url(img/bg_footer.png) repeat 0 0 #3E403F;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*end footer*/
+
+
+

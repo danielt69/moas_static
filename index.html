@@ -1,71 +1,260 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+
+<html lang="he">
+<!--<![endif]-->
+
+<head data-hook="inside_head">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Moas static by danielt69</title>
+    <title>Moas</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Moas static</h1>
-        <p>moas_static_page</p>
-
-        <p class="view"><a href="https://github.com/danielt69/moas_static">View the Project on GitHub <small>danielt69/moas_static</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/danielt69/moas_static/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/danielt69/moas_static/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/danielt69/moas_static">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/danielt69">danielt69</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+    <meta name="keywords">
+    <meta name="description">
+    <link href="http://demo.spreecommerce.com/" rel="canonical">
+    <link href="assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="assets/normalize.css" media="screen" rel="stylesheet">
+    <link href="assets/skeleton.css" media="screen" rel="stylesheet">
+    <link href="assets/spree/frontend/screen.css" media="screen" rel="stylesheet">
     
-  </body>
+    <link href="assets/spree/frontend/all.css" media="screen" rel="stylesheet">
+    <link href="assets/spree/frontend/spree_static_content.css" media="screen" rel="stylesheet">
+    <meta content="authenticity_token" name="csrf-param">
+    <meta content="u7rU3IhK7mUAaLWXJwQT0K5QeNQ+tEnYFtDlim/utKk=" name="csrf-token">
+
+    <script src="./Spree Demo Site_files/jquery.js"></script>
+    <style type="text/css"></style>
+    <script src="./Spree Demo Site_files/jquery_ujs.js"></script>
+    <script src="./Spree Demo Site_files/jquery.validate.min.js"></script>
+    <script src="./Spree Demo Site_files/jsuri.js"></script>
+    <script src="./Spree Demo Site_files/spree.js"></script>
+    <script src="./Spree Demo Site_files/jquery.payment.js"></script>
+    <script src="./Spree Demo Site_files/checkout.js"></script>
+    <script src="./Spree Demo Site_files/address.js"></script>
+    <script src="./Spree Demo Site_files/payment.js"></script>
+    <script src="./Spree Demo Site_files/product.js"></script>
+    <script src="./Spree Demo Site_files/cart.js"></script>
+    <script src="./Spree Demo Site_files/frontend.js"></script>
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+     
+    <!-- Include js plugin -->
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/opensanshebrew.css" rel="stylesheet">
+
+    <script src="./Spree Demo Site_files/all.js"></script>
+    <link href="frontend.css" media="screen" rel="stylesheet">
+
+    
+    <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body class="homepage">
+
+    <div class="container">
+
+        <header id="header">
+            <figure id="logo" >
+                <a href="http://www.moas-gas.com/">
+                    <img alt="moas_logo" src="img/logo.png">
+                </a>
+            </figure>
+            <div class="gas_servise">
+                <a>שירותי גז בעמק יזרעאל והסביבה</a>
+            </div>
+
+             <figure id="logo2" >
+                <a href="/">
+                    <img alt="moas_logo" src="img/logo2.png">
+                </a>
+            </figure>
+
+            <ul id="main-nav-bar">
+                <li class="pos_0 inline_block"><a href="../moas_static/index.html">דף הבית</a></li>
+                <li class="pos_1 inline_block"><a href="../moas_static/about_us.html">אודותינו</a></li>
+                <li class="pos_2 inline_block"><a href="../moas_static/our_services.html">השירותים שלנו</a></li>
+                <li class="pos_3 inline_block"><a href="../moas_static/gallery.html">גלריית תמונות</a></li>
+                <li class="pos_4 inline_block"><a href="../moas_static/order.html">הזמן גז דרך האתר</a></li>
+            </ul>
+
+        </header>
+
+
+        <div id="main" >
+            <div id="content">
+
+                <div id="owl-demo" class="owl-carousel owl-theme">
+ 
+                  <div class="item"><a href="#"><img src="img/slider1.jpg" alt=""></a></div>
+                  <div class="item"><a href="#"><img src="img/slider2.jpg" alt=""></a></div>
+                  <div class="item"><a href="#"><img src="img/slider3.jpg" alt=""></a></div>
+                 
+                </div>
+
+                 <div class="our_service">
+                    <a>
+                        <img alt="Our Service" src="img/our_service.png">
+                    </a>
+                </div>
+
+                <ul class="our_service_main">
+                    <li class="pos_0 inline_block">
+                        <div>
+                            <ul class="each_service">
+                                <li class="pos_0">
+                                    <img class="service_img" src="img/service1.jpg">
+                                </li>
+                                <li class="pos_1">
+                                    <a>חלוקת גז שוטפת בעמק יזרעאל</a>
+                                </li>
+                                <li class="pos_2">
+                                    <p>א.ת.נ מואס בע"מ<br /><br />
+                                    מספקת גז בימי חלוקה סידירים לתושבי עמק יזרעאל  , רמת ישי , גבעת אלה , רמת דוד , גבת , יפעת , סוללים , שימשית , אלוני אבא , אלונים וכו ...</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pos_1 inline_block">
+                         <div>
+                            <ul class="each_service">
+                                <li class="pos_0">
+                                    <img class="service_img" src="img/service2.jpg">
+                                </li>
+                                <li class="pos_1">
+                                    <a>התקנת מיכלי גז ביתיים</a>
+                                </li>
+                                <li class="pos_2">
+                                    <p>א.ת.נ מואס בע"מ - *התקנות<br /><br />
+                                    מיכלי 12 ק"ג - מיכלים "קטנים"<br />
+                                    מיכלי 48 ק"ג מיכלים "גדולים"<br /><br />
+                                    *שיקול לבחירת מאגר הגז :
+                                    1.שיקול דעת הטכנאי ובהתייעצות עם הלקוח (מיקומים וכד')
+                                    2. האם ישנם מכשירים נוספים שצורכים גז כמו מחממי מים, מייבש כביסה , תנור הסקה וכד' נתקין מאגר גדול יותר.
+                                     <br />
+                                    *התקנת מאגר/מכשירים יותקנו על ידי טכנאי גז מוסמך בלבד.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pos_2 inline_block">
+                         <div>
+                            <ul class="each_service">
+                                <li class="pos_0">
+                                    <img class="service_img" src="img/service3.jpg">
+                                </li>
+                                <li class="pos_1">
+                                    <a>מוצרים נלווים לגז</a>
+                                </li>
+                                <li class="pos_2">
+                                    <p>א.ת.נ מואס בע"מ - מוצרים נלווים <br /><br />
+                                    מוצרים נלווים אשר יעזרו לכם לנהל את מערכת הגז בבית ובעסק בצורה נוחה ויעילה.<br /><br />
+                                    חדש באתר " מד הגז הראשון בישראל GASLEVEL".</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pos_3 inline_block">
+                         <div>
+                            <ul class="each_service">
+                                <li class="pos_0">
+                                    <img class="service_img" src="img/service4.jpg">
+                                </li>
+                                <li class="pos_1">
+                                    <a>התקנת תשתיות</a>
+                                </li>
+                                <li class="pos_2">
+                                    <p>א.ת.נ מאוס בע"מ<br /><br />
+                                    התקנות .גז למגזר הפרטי , מסחרי ,תעשייתי וחקלאי.<br />
+                                    נותנת יעוץ וליווי בתהליך הבניה ,<br />
+                                    מתכננת מערכות חסכוניות ואסטטיות המתאימה לצרכים שלכם, קבלת אישור להתאמת מערכת הגז לדרישת התקן ישראלי 158 לחוק על ידי טכנאי מוסמך.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+
+        
+        <div class="store_img">
+            <a href="http://lagas.co.il/">
+                <img alt="store" src="img/store1.jpg">
+            </a>
+        </div>
+
+
+        <footer id="footer">
+            <div class="wrap_footer">
+                
+                <div class="facebooks inline_block">
+                    <div class="fb_homepage">
+                        <a href="https://www.facebook.com/moastomerotn?ref=hl">לעמוד הפייסבוק שלנו</a>
+                    </div>
+                    <div class="fb_lagas">
+                         <a href="https://www.facebook.com/lagas.co.il">לעמוד הפייסבוק של GAZLEVEL</a>
+                    </div>
+                </div>
+
+                <div class="footer_nav inline_block">
+                    <div class="nav_site inline_block">
+                        <h3>מפת ניווט באתר</h3>
+                        <ul>
+                            <li class="pos_0">
+                                <a href="../moas_static/index.html">דף הבית</a>
+                            </li>
+                            <li class="pos_1">
+                                <a href="../moas_static/about_us.html">אודות</a>
+                            </li>
+                            <li class="pos_2">
+                                <a href="../moas_static/our_services.html">השירותים שלנו</a>
+                            </li>
+                            <li class="pos_3">
+                                <a href="../moas_static/gallery.html">גלריית תמונות</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="address inline_block">
+                        <h3>פרטי התקשרות</h3>
+                        <p>כתובתינו: רמת ישי, ת.ד 1131 </p>
+                        <p>טלפון: 052-457-2703 </p>
+                        <p>מייל לפניות:</p>
+                        <a href="">otn.moas@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact inline_block">
+                        <h3>יש לך שאלה? <br>כתוב לנו ונשמח לעמוד לשירותך</h3>
+                        <form accept-charset="UTF-8" action="/contacts" class="new_contact_us_contact" id="footer_new_contact_us_contact" method="post" novalidate="novalidate">
+                            <div>
+                                <input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="jFC+5i8TaZdIlepZenmtWzfw5fCTOA+C9wDrRmz32CQ=">
+                            </div>
+                            <p>
+                                <input class="required" id="footer_contact_us_contact_name" name="contact_us_contact[name]" type="text" placeholder="שם מלא:"></p>
+                            <p>
+                                <input class="required email" id="footer_contact_us_contact_email" name="contact_us_contact[email]" type="email" placeholder="מייל:"></p>
+                            <p>
+                                <textarea class="required" id="footer_contact_us_contact_message" name="contact_us_contact[message]" placeholder="תוכן ההודעה:"></textarea></p>
+                            <p class="btn">
+                                <input alt="Submit" id="footer_contact_us_contact_submit" name="commit" title="Submit" type="submit" value="שלח פנייה"><i class="fa fa-angle-double-left"></i>
+                            </p>
+                      </form>
+                    </div>      
+            </div>    
+        </footer>
+
+
+    </div>
+
+
+</body>
+
 </html>
