@@ -566,9 +566,18 @@ div.main_about_us h3 {
 		margin: 0 auto;
 	}
 
+	/*about page*/
+	.main_about_us_left {
+		display: none;
+	}
+	.main_about_us_right {
+		float: none;
+		width: 93%;
+	}
+
 	/*footer*/
 	footer#footer .facebooks {
-		width: 100%;
+		width: auto;
 		height: auto;
 		position: relative;
 		padding: 0 30px;
